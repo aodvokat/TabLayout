@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tab3">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="UNIVERSITAS KUNINGAN"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#DDCA53"
+                android:background="#4763AA"/>
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fkom"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:background="#e6e600"
+                android:alpha="0.7"
+                android:fontFamily="times new roman"
+                android:textAlignment="center"
+                android:text="Program Studi di Universitas Kuningan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Fakultas Keguruan dan Ilmu Pendidikan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dataprodiguru"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="keguruan"
+                android:focusableInTouchMode="false"
+                android:hint="Klik untuk melihat daftar prodi"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints=""/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Fakultas Ekonomi dan Bisnis"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dataprodibisnis"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="bisnis"
+                android:focusableInTouchMode="false"
+                android:hint="Klik untuk melihat daftar prodi"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints=""/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Fakultas Kehutanan dan Lingkungan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dataprodikehutanan"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="hutan"
+                android:focusableInTouchMode="false"
+                android:hint="Klik untuk melihat daftar prodi"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints=""/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Fakultas Ilmu Komputer"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dataprodikomputer"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="komputer"
+                android:focusableInTouchMode="false"
+                android:hint="Klik untuk melihat daftar prodi"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints=""/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Fakultas Hukum"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/dataprodihukum"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="hukum"
+                android:focusableInTouchMode="false"
+                android:hint="Klik untuk melihat daftar prodi"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                android:autofillHints=""/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
